@@ -25,7 +25,7 @@ function currentLine(line) {
       if (i < line.length - 1) {
         currentLine += ", ";
       }
-      
+      i++;
     }
     return currentLine;
   }
